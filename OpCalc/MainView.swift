@@ -8,8 +8,14 @@
 
 import Foundation
 
-
+class MainView : NSView {
+    
+func viewDidLoad() {
+    super [viewDidLoad]
+    
+}
 
 func thing() {
 ∑…[5,5,5,5]
+}
 }

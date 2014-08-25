@@ -671,7 +671,7 @@
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="494" y="176" width="451" height="525"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
-            <view key="contentView" id="EiT-Mj-1SZ">
+            <view key="contentView" id="EiT-Mj-1SZ" customClass="MainView">
                 <rect key="frame" x="0.0" y="0.0" width="451" height="525"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
@@ -682,6 +682,9 @@
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
+                        <connections>
+                            <outlet property="delegate" destination="EiT-Mj-1SZ" id="lra-Wx-A64"/>
+                        </connections>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dEB-k9-P70">
                         <rect key="frame" x="80" y="478" width="290" height="17"/>
