@@ -51,7 +51,8 @@ func ≈ (item1:Double, item2:Double) -> Bool {
 
 //MARK: Rounding
 func › (value:Double, format:String) -> String {
-    return NSString(format:format, value)
+
+    return String(format: format, value)//String(NSString(format:format, value))
 }
 
 //MARK: Division ;3
@@ -86,5 +87,4 @@ prefix func ‼ (number:Double) -> Double
 prefix func √ (item:Double) -> Double {
     return sqrt(item)
 }
-
 

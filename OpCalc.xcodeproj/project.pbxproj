@@ -12,8 +12,9 @@
 		CD68169119A7BF5500252B20 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD68169019A7BF5500252B20 /* Images.xcassets */; };
 		CD68169419A7BF5500252B20 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD68169219A7BF5500252B20 /* MainMenu.xib */; };
 		CD6816A019A7BF5500252B20 /* OpCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD68169F19A7BF5500252B20 /* OpCalcTests.swift */; };
-		CD6816AA19A7C17B00252B20 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6816A919A7C17B00252B20 /* MainView.swift */; };
 		CD6816AC19A7C1B200252B20 /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6816AB19A7C1B200252B20 /* Operations.swift */; };
+		CD689A6B19AFA93600E65F60 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD689A6919AFA93600E65F60 /* MainViewController.swift */; };
+		CD689A6C19AFA93600E65F60 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD689A6A19AFA93600E65F60 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +37,9 @@
 		CD68169919A7BF5500252B20 /* OpCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD68169E19A7BF5500252B20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD68169F19A7BF5500252B20 /* OpCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpCalcTests.swift; sourceTree = "<group>"; };
-		CD6816A919A7C17B00252B20 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		CD6816AB19A7C1B200252B20 /* Operations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operations.swift; sourceTree = "<group>"; };
+		CD689A6919AFA93600E65F60 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../MainViewController.swift; sourceTree = "<group>"; };
+		CD689A6A19AFA93600E65F60 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = ../MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				CD68168E19A7BF5500252B20 /* AppDelegate.swift */,
-				CD6816A919A7C17B00252B20 /* MainView.swift */,
 				CD6816AB19A7C1B200252B20 /* Operations.swift */,
+				CD689A6919AFA93600E65F60 /* MainViewController.swift */,
+				CD689A6A19AFA93600E65F60 /* MainViewController.xib */,
 				CD68169019A7BF5500252B20 /* Images.xcassets */,
 				CD68169219A7BF5500252B20 /* MainMenu.xib */,
 				CD68168A19A7BF5500252B20 /* Supporting Files */,
@@ -196,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD68169119A7BF5500252B20 /* Images.xcassets in Resources */,
+				CD689A6C19AFA93600E65F60 /* MainViewController.xib in Resources */,
 				CD68169419A7BF5500252B20 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,9 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD68168F19A7BF5500252B20 /* AppDelegate.swift in Sources */,
-				CD6816AA19A7C17B00252B20 /* MainView.swift in Sources */,
 				CD68168D19A7BF5500252B20 /* main.swift in Sources */,
 				CD6816AC19A7C1B200252B20 /* Operations.swift in Sources */,
+				CD689A6B19AFA93600E65F60 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +409,7 @@
 				CD6816A519A7BF5500252B20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD6816A619A7BF5500252B20 /* Build configuration list for PBXNativeTarget "OpCalcTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				CD6816A819A7BF5500252B20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
